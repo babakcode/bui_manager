@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({Key? key}) : super(key: key);
@@ -39,7 +40,7 @@ class SignInPage extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                       MaterialButton(
-                        onPressed: () {},
+                        onPressed: () => context.go('/sign_up'),
                         child: const Text(
                           'Sign up',
                           style: TextStyle(
