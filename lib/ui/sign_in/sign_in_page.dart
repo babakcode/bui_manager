@@ -91,7 +91,7 @@ class SignInPage extends StatelessWidget {
                     decoration: InputDecoration(
                         hintText: 'Password',
                         fillColor: Colors.transparent,
-                        suffixIcon: IconButton(onPressed: () {}, icon: Icon(Icons.visibility)),
+                        suffixIcon: IconButton(onPressed: () {}, icon: const Icon(Icons.visibility)),
                         filled: true),
                   ),
                 ),
