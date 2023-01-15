@@ -260,7 +260,9 @@ class _SignUpPageState extends State<SignUpPage> {
 
                         MaterialButton(
                           color: Colors.white,
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.pushNamed(context, '/home');
+                          },
                           minWidth: 100,
                           height: 46,
                           child: const Text(

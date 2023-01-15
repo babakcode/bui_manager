@@ -1,4 +1,5 @@
 import 'package:bui_managers/constants/app_constants.dart';
+import 'package:bui_managers/ui/pages/home/home_page.dart';
 import 'package:bui_managers/ui/pages/sign_in/sign_in_page.dart';
 import 'package:bui_managers/ui/pages/sign_up/sign_up_page.dart';
 import 'package:flutter/material.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/sign_in': (context) => const SignInPage(),
         '/sign_up': (context) => const SignUpPage(),
+        '/home': (context) => const HomePage(),
       },
       theme: ThemeData(
         primaryColor: Colors.black,
